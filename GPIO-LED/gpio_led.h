@@ -22,8 +22,8 @@ enum
 };
 static int led_array[led_count] = { 27, 28, 29 };
 
-void init_led(void);
-void light_led(void);
-void signal_handler(int signum);
+extern void init_led(void);
+extern void light_led(void);
+extern void signal_handler(int signum);
 
 #endif
